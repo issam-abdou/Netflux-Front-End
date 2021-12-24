@@ -1,0 +1,32 @@
+.grayscale{
+    background-color: grey;
+}
+.navbar-item{
+    /* background-color: red; */
+    border: solid;
+    width: 400px;
+}
+.dd{
+    transition: ease 0.3s;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: seagreen;
+    border-radius: 50%;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+    
+}
+.moviesGrid{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 10px;
+}
+body{
+    background-color: black;
+    color: white;
+}
